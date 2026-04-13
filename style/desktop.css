@@ -1,0 +1,28 @@
+h1 {
+  padding-right: 70px;
+}  
+.box {
+  width: 650px;
+  height: 450px;
+}
+.category {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 20px;
+}
+
+.product-img {
+  max-height: 500px;
+}
+.right {
+  height: 100%;
+}
+.description {
+  margin: 10px 20px 10px 0;
+}
+.product-img-mobile {
+  display: none;
+}
