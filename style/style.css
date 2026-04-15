@@ -1,5 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
+  font-weight:500;
   margin: 0;
   padding: 0;
 }
@@ -47,6 +48,7 @@ h1,
 }
 .description{
     color : grey;
+    line-height: 30px;
 }
 .price,
 .original-price {
@@ -69,17 +71,18 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-	background-color: rgb(66,125,104);
+	background-color: hsl(158, 36%, 37%);
 	color:white;
 	width: 80%;
 	height: 60px;
 	border: none;
 	border-radius: 5px;
     margin: 30px auto;
+    transition:background-color 0.1s linear;
 
 }
 button:hover{
-    background-color: rgb(38, 66, 56);
+    background-color: hsl(158, 42%, 18%);
     cursor: pointer;
 }
 .content{
